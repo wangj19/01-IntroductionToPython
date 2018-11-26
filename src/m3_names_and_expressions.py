@@ -18,6 +18,9 @@ print(answer * 100)
 #   Once you completely understand the above, run this module,
 #   confirming that it prints 3200.  Then change the above _TODO_ to DONE.
 ###############################################################################
+import math
+number = 77 + math.cos(2.75)
+print(math.sqrt(number))
 
 ###############################################################################
 # TODO: 2.
@@ -28,6 +31,7 @@ print(answer * 100)
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
+print(math.sqrt(41 * 88)+math.cos(2))
 
 ###############################################################################
 # TODO: 3.
@@ -46,6 +50,8 @@ print(answer * 100)
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
+print(math.sqrt(2))
+print(2 ** 0.5)
 
 
 ###############################################################################
@@ -88,6 +94,7 @@ print(answer * 100)
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
+print(type(print))
 
 ###############################################################################
 #

@@ -9,7 +9,8 @@
 #      Hello, World
 #   on the Run window.
 #
-#   Anything surrounded by quote marks (single or double) is a STRING.
+#   Anything surrounded by quote marks
+#  (single or double) is a STRING.
 #
 ###############################################################################
 print('Hello, World')

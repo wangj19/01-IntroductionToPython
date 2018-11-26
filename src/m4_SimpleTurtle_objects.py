@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Jiadi Wang.
 """
 ###############################################################################
 #
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -73,6 +73,10 @@ import rosegraphics as rg
 #   change this _TODO_ to DONE and  ** continue to the next _TODO_ (below). **
 #
 ###############################################################################
+
+natasha = rg.SimpleTurtle()
+natasha.forward(100)
+natasha.speed =10
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
