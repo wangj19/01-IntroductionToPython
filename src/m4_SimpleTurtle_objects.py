@@ -74,10 +74,6 @@ import rosegraphics as rg
 #
 ###############################################################################
 
-natasha = rg.SimpleTurtle()
-natasha.forward(100)
-natasha.speed =10
-
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - CONSTRUCT (make and initialize) a   TurtleWindow   object for animation.
@@ -91,7 +87,7 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # The next few lines show how to:
 #   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
-boris = rg.SimpleTurtle()
+boris = rg.SimpleTurtle('turtle')
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -101,7 +97,7 @@ boris = rg.SimpleTurtle()
 boris.forward(100)
 boris.left(90)
 boris.forward(200)
-
+boris.speed =10
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - Construct a second SimpleTurtle,
@@ -114,13 +110,15 @@ natasha.speed = 5  # Bigger means faster, max is usually about 10
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(125)
+natasha.left(45)
+natasha.forward(100)
 
-natasha.speed = 1  # Now slower
-natasha.go_to(rg.Point(-100, 200))
+natasha.speed = 5  # Now slower
+natasha.go_to(rg.Point(-100, -200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -130,10 +128,17 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+bob = rg.SimpleTurtle('turtle')
+bob.pen = rg.Pen('blue', 20)
+bob.speed = 8
 
+bob.forward(150)
+bob.right(60)
+bob.forward(75)
+bob.go_to(rg.Point(-100,-200))
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
